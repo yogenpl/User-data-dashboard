@@ -57,6 +57,7 @@ Click "Reload Data" to refresh the information
 **🎯 How It Works**
 
 Data Flow:
+
 Request: Application sends GET request to https://jsonplaceholder.typicode.com/users
 
 Response: API returns JSON array of user objects
@@ -66,6 +67,7 @@ Processing: JavaScript parses JSON and extracts relevant data
 Display: User cards are dynamically created and displayed
 
 Key Functions:
+
 fetchUserData() - Handles API requests and error handling
 
 displayUsers() - Creates and displays user cards
@@ -73,7 +75,9 @@ displayUsers() - Creates and displays user cards
 showStatus() - Shows loading/error/success messages
 
 🧪 Testing
+
 Normal Operation:
+
 Open application with internet connection
 
 Verify user cards display with name, email, and address
@@ -81,6 +85,7 @@ Verify user cards display with name, email, and address
 Test reload functionality
 
 Error Testing:
+
 Disable internet and click "Fetch User Data"
 
 Verify error message appears
