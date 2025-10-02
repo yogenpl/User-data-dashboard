@@ -29,11 +29,6 @@ JavaScript (ES6+) - Fetch API and DOM manipulation
 
 JSONPlaceholder API - Free fake API for testing
 
-**Installation & Usage**
-
-Download the files:
-
-bash
 # Create project folder
 mkdir user-data-display
 cd user-data-display
